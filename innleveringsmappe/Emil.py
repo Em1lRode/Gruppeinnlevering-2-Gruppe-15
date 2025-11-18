@@ -15,9 +15,9 @@ valg1 = input("Konflikt 1 - Hamdi og Jabir"
               "\n2) - Avvente og håpe det ordner seg"
               "\n")
 if valg1 == "1":
-    print("Erling valge å starte en åpen diskusjon for å løse problemet. Dette skaper åpenhet.")
+    print("Erling velger å starte en åpen diskusjon for å løse problemet. Dette skaper åpenhet.")
 elif valg1 == "2":
-    print("Erling valgte å gå litt mer passivt, avvente og håper det order seg")
+    print("Erling velger å avvente situasjonen i håp om at det order seg selv.")
 else:
     print("Dette er ikke et alternativ.")
     exit()
@@ -33,7 +33,7 @@ valg2 = input("Konflikt 2 - Silje og Sivert"
 if valg2 == "1":
     print("Erling velger å ta konflikten opp i forsamling, dette kan skape fellesskap")
 elif valg2 == "2":
-    print("Erling velger å ta individuelle samtaler med hver enkelt av dem, dette kan bli mer personlig.")
+    print("Erling velger å ta individuelle samtaler med hver enkelt av dem, dette kan føre til at begge partene føler seg hørt.")
 else:
     print("Dette er ikke et alternativ")
     exit()
@@ -43,7 +43,7 @@ print("-------------------------------------------------------------------------
 valg3 = input("Konflikt 3 - Noa og Halvgeir"
               "\nNoa og Hallgeir er svært uenige om løsningen rundt innspill fra medborgerene."
               "\nHvordan skal Erling løse dette?"
-              "\n1) - Aktiv konfliktmegling og finn en felles løsning"
+              "\n1) - Aktiv konfliktmegling og finne en felles løsning"
               "\n2) - Autoritær beslutning og fokus på fremdrift?"
               "\n")
 if valg3 == "1":
